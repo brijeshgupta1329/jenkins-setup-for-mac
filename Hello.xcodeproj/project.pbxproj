@@ -283,7 +283,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 6Z842A97CR;
 				INFOPLIST_FILE = Hello/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -291,6 +293,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Test.Hello;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "74b66ff3-ae33-4fcc-a835-9661fcbd7648";
+				PROVISIONING_PROFILE_SPECIFIER = "KiwiTech Dev";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -299,7 +303,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 8HPANVN593;
 				INFOPLIST_FILE = Hello/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -307,6 +313,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Test.Hello;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8c06f775-c218-4d45-94a2-e79e880ecf60";
+				PROVISIONING_PROFILE_SPECIFIER = "KiwiTech Enterprise Release Star";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
